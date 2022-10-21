@@ -1,0 +1,2 @@
+import{A as t}from"./index.6028a791.js";import"./index.17e11d16.js";import"./iframe.2452ef87.js";import"./index.bb249f92.js";import"./jsx-runtime.440b4f84.js";const n={title:"Data display/Avatar",component:t,args:{src:"https://github.com/bMoki.png",alt:"Breno Sonda"},argTypes:{src:{control:{type:"text"}}}},p={},c={args:{src:void 0,alt:"Breno Sonda"}},e=["Primary","WithFallback"];export{p as Primary,c as WithFallback,e as __namedExportsOrder,n as default};
+//# sourceMappingURL=Avatar.stories.a7ef254e.js.map
