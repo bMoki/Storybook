@@ -1,3 +1,4 @@
+import { fontWeights } from "@omn-ui/tokens";
 import { ComponentProps, ElementType } from "react";
 import { styled } from "../styles";
 
@@ -22,11 +23,17 @@ export const Text = styled('p', {
             '7xl': { fontSize: '$7xl' },
             '8xl': { fontSize: '$8xl' },
             '9xl': { fontSize: '$9xl' },
+        },
+        weight: {
+            regular: { fontWeights: "$regular" },
+            medium: { fontWeights: "$medium" },
+            bold: { fontWeights: "$bold" },
         }
     },
 
     defaultVariants: {
-        size: 'md'
+        size: 'md',
+        weight: 'regular'
     }
 
 
